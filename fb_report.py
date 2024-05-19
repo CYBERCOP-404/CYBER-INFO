@@ -10,10 +10,10 @@ ADMIN_LIST ='''
 \033[1;39m ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46m𝗞𝗜𝗡𝗚\033[1;39m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 \033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙉𝘼𝙈𝙀\033[1;34m           : [★]  CYBER COP BANGLADESH\033[1;39m   ┃
 \033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆\033[1;34m       : [★]  CYBER COP\033[1;39m               ┃
-\033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙂𝙄𝙏𝙃𝙐𝘽\033[1;34m          : [★]  CYBERCOP-404\033[1;39m             ┃
-\033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙍𝙄𝙇𝙄𝙂𝙀𝙎𝙃𝙊𝙉\033[1;34m      : [★]  𝗕𝗔𝗡𝗚𝗟𝗔𝗗𝗘𝗦𝗛𝗜\033[1;39m          ┃
-\033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\033[1;34m      : [★]  +8809638223345\033[1;39m            ┃
-\033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀\033[1;34m    : [★]  FACEBOOK-AUTO-REPORT\033[1;39m       ┃
+\033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙂𝙄𝙏𝙃𝙐𝘽\033[1;34m         : [★]  CYBERCOP-404\033[1;39m             ┃
+\033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙍𝙄𝙇𝙄𝙂𝙀𝙎𝙃𝙊𝙉\033[1;34m     : [★]  𝗕𝗔𝗡𝗚𝗟𝗔𝗗𝗘𝗦𝗛𝗜\033[1;39m          ┃
+\033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\033[1;34m       : [★]  +8809638223345\033[1;39m            ┃
+\033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀\033[1;34m     : [★]  FACEBOOK-AUTO-REPORT\033[1;39m       ┃
  \033[1;39m┗━━━━━━━━━━━━━━━━━━━\033[1;31m𝙁𝙄𝙍𝙀\033[1;39m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 '''
 #  IMPORT SECTION HERE 
@@ -22,8 +22,6 @@ from time import sleep
 from random import choice
 #  IMPORT SECTION END 
 #  URL HERE
-FACEBOOK = "https://www.facebook.com/cybercopbangladesh"
-YOUTUBE = "https://www.youtube.com/cybercopbangladesh"
 github = "https://www.github.com/cybercop-404"
 telegram = "https://t.me/cybercopbangladesh"
 #  URL END HERE 
@@ -40,13 +38,7 @@ LB = '\033[94;1m'
 LM = '\033[95;1m'
 LC = '\033[96;1m'
 os.system('clear')
-os.system(f'xdg-open {FACEBOOK}')
-sleep(4)
-os.system(f'xdg-open {YOUTUBE}')
-sleep(4)
 os.system(f'xdg-open {github}')
-sleep(4)
-os.system(f'xdg-open {telegram}')
 sleep(4)
 while True:
     os.system('clear')
