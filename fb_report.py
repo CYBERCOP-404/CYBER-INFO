@@ -23,7 +23,6 @@ from random import choice
 #  IMPORT SECTION END 
 #  URL HERE
 github = "https://www.github.com/cybercop-404"
-telegram = "https://t.me/cybercopbangladesh"
 #  URL END HERE 
 R = '\033[31;1m'
 G = '\033[32;1m'
@@ -37,9 +36,9 @@ LY = '\033[93;1m'
 LB = '\033[94;1m'
 LM = '\033[95;1m'
 LC = '\033[96;1m'
-os.system('clear')
-os.system(f'xdg-open {github}')
-sleep(4)
+# os.system('clear')
+# os.system(f'xdg-open {github}')
+# sleep(4)
 while True:
     os.system('clear')
     print(BANNER)
@@ -49,7 +48,6 @@ while True:
     repost =int(input(dc+'HOW MANY REPORT DO YOU WANT TO SENT (MAX 100): '))
     for i in range(repost):
         dc = choice([R,G,Y,B,M,C,LR,LG,LY,LB,LM])
-        print(dc+'REPORT SUCESS 😈'+dc+' REPORT FROM CYBER-COP-TEAM 😈')
+        print(dc+'['+str(i)+']'' REPORT SUCESS 😈  REPORT FROM CYBER-COP-TEAM 😈')
         sleep(0.4)
-       
 # Developer CYBER-COP-BANGLADESH
