@@ -44,12 +44,12 @@ while True:
     os.system('clear')
     print(BANNER)
     print(ADMIN_LIST)
-    print('PRESS ENTER TO RUN THE TOOL')
-    id_link =int(input('ENTER YOUR TARGET ID : '))
-    repost =int(input('HOW MANY REPORT DO YOU WANT TO SENT (MAX 100): '))
+    dc = choice([R,G,Y,B,M,C,LR,LG,LY,LB,LM])
+    id_link =int(input(dc+'ENTER YOUR TARGET ID : '))
+    repost =int(input(dc+'HOW MANY REPORT DO YOU WANT TO SENT (MAX 100): '))
     for i in range(repost):
         dc = choice([R,G,Y,B,M,C,LR,LG,LY,LB,LM])
-        print(dc+'REPORT SUCESS 😈 REPORT FROM CYBER-COP-TEAM 😈')
+        print(dc+'REPORT SUCESS 😈'+dc+' REPORT FROM CYBER-COP-TEAM 😈')
         sleep(0.4)
        
 # Developer CYBER-COP-BANGLADESH
