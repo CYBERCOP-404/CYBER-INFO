@@ -39,8 +39,8 @@ comm ='''\033[0;31m
 LOGIN ERROR ....
 '''
 while True:
-    anima(animation)
     clear_screen()
+    anima(animation)
     print(BANNER)
     print(command_list)
     CHOICE = input('\033[1;34mENTER YOUR CHOICE : ')
