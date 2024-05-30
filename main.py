@@ -15,7 +15,8 @@ BANNER='''\033[1;32m
  \______/     |__/    |_______/ |________/|__/  |__/         \______/  \______/ |__/   Verson-2.1
 '''
 command_list='''
-[1] PYTHON COLOR CODE  
+[1] CYBER INFO BOX 
+[2] PYTHON COLOR CODE  
 '''
 comm ='''\033[0;31m
 LOGIN ERROR ....
@@ -26,6 +27,9 @@ while True:
     print(command_list)
     CHOICE = input('\033[1;34mENTER YOUR CHOICE : ')
     if CHOICE =='1':
+        os.system('espeak opencyberinfo')
+        os.system('python cyber_info.py')
+    elif CHOICE=='2':
         os.system('python-color-code.txt')
     else:
         for i in range(10,0,-1):
